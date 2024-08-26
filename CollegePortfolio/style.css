@@ -1,0 +1,170 @@
+@font-face {
+    font-family: "myFont";
+    src: url(Resources/nuku1.ttf);
+}
+
+* { 
+    margin : 0 ; 
+    padding : 0 ; 
+    box-sizing: border-box;
+}
+
+html , body { 
+    height : 100% ;
+    width : 100% ; 
+    font-family: myFont ;
+}
+
+#home { 
+    height : 100% ; 
+    width : 100% ; 
+    background-color: #EEDAAE;
+    color : #343434 ;
+}
+
+#cur { 
+    height : 30px ; 
+    width: 30px; 
+    border-radius: 50%;
+    background-color: #EEDAAE;
+    mix-blend-mode: difference;
+    transform: translate(-50%,-50%);
+    translate: all linear 0.3s;
+    position: absolute ;
+}
+
+#nav {
+    /* background-color: red ; */
+    height : 10vh ; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding : 0 25vw ; 
+}
+
+#nav h2 { 
+    font-weight : 300 ; 
+    font-size : 2vw ; 
+     
+}
+
+#nav h2:nth-of-type(1) { 
+    border-bottom : 3px solid red ; 
+}
+
+#name {
+     display: flex; 
+     flex-direction: column;
+}
+
+#name h1 { 
+    font-weight : 300 ; 
+    font-size : 8vw ; 
+}
+
+#name h1:nth-of-type(1) { 
+    margin : 5vh 0 0 10vw ; 
+}
+
+#name h1:nth-of-type(2) { 
+    margin : 1vh 0 0 25vw ; 
+}
+
+#anime img { 
+    position : absolute ; 
+    top : 7.3vh ; 
+    right  : -2vw  ;  
+}
+
+#des  {
+    position: absolute; 
+    bottom : 2vh ; 
+    left : 2vh ; 
+}
+#des h2 { 
+    font-size: 2vw ;
+}
+
+#skill { 
+    height : 100% ; 
+    width : 100% ; 
+    background-color: #EEDAAE;
+    color : #343434 ; 
+    display: flex ;
+    flex-direction: column;
+    align-items: center;
+    position: relative ; 
+}
+
+#hd h1 { 
+    font-weight : 300 ; 
+    font-size : 8vw ; 
+}
+
+#skills { 
+    width: 100% ;
+   position: absolute;
+   top : 30% ; 
+   left : 0 ; 
+}
+
+.el { 
+    height: 15vh ;
+    width : 100%;
+    border-bottom: 2px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position : relative ; 
+}
+
+.el h1 { 
+    font-size : 6vw ; 
+    position: relative ; 
+    z-index: 9 ;
+}
+
+.el img { 
+    height : 150px ; 
+    width: 150px  ;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+    position : absolute ; 
+    opacity : 0 ; 
+    transition: all linear 0.2s ;  
+}
+
+#projects { 
+    height : 100% ; 
+    width : 100% ; 
+    background-color: #EEDAAE;
+    color : #343434 ; 
+}
+
+#heading { 
+    display : flex ; 
+    justify-content: center;
+}
+
+#heading h1 { 
+    font-weight : 300 ; 
+    font-size : 8vw ; 
+}
+
+#content1 { 
+    margin : 10vh 0 0 2vw  ; 
+}
+
+#content1 h2 { 
+    font-weight : 300 ; 
+    font-size : 4vw ; 
+}
+
+#content1 h2:nth-of-type(2){ 
+    font-size : 2vw ; 
+    font-weight : 300 ; 
+}
+
+
+
