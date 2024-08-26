@@ -166,5 +166,9 @@ html , body {
     font-weight : 300 ; 
 }
 
+#heading a img { 
+    height : 20vh ; 
+}
+
 
 
