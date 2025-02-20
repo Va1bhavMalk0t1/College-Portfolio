@@ -50,7 +50,7 @@ html , body {
     color : #343434 ; 
 }
 
-#nav a :hover { 
+#nav a:hover { 
     border-bottom: 2px solid red ;
 }
 
