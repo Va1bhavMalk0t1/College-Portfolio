@@ -154,11 +154,14 @@ html , body {
 
 #content1 { 
     margin : 10vh 0 0 2vw  ; 
+    display : flex ; 
+    flex-direction: column ;
+    gap : 2vw ; 
 }
 
-#content1 a { 
-    font-weight : 300 ; 
-    font-size : 4vw ; 
+#content1 a{ 
+    font-weight : 500 ; 
+    font-size : 8vw ; 
 }
 
 #content1 h2 { 
