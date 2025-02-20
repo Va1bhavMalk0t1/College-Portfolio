@@ -159,9 +159,10 @@ html , body {
     gap : 2vw ; 
 }
 
-#content1 a{ 
+#content1 a { 
     font-weight : 500 ; 
-    font-size : 8vw ; 
+    font-size : 4vw ; 
+    text-decoration: none ;
 }
 
 #content1 h2 { 
