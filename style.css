@@ -28,8 +28,8 @@ html , body {
     border-radius: 50%;
     background-color: #EEDAAE;
     mix-blend-mode: difference;
-    transform: translate(-50%,-50%);
-    translate: all linear 0.3s;
+    transform : translate(-50%,-50%);
+    transition : all linear 0.3s;
     position: absolute ;
 }
 
