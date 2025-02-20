@@ -1,9 +1,9 @@
-const cr = document.querySelector("#cur") ; 
-const body = document.querySelector("body") ; 
-body.addEventListener("mousemove",(pos)=>{
-    cur.style.left = pos.clientX + "px" ; 
-    cur.style.top = pos.clientY + "px" ; 
-})
+// const cr = document.querySelector("#cur") ; 
+// const body = document.querySelector("body") ; 
+// body.addEventListener("mousemove",(pos)=>{
+//     cur.style.left = pos.clientX + "px" ; 
+//     cur.style.top = pos.clientY + "px" ; 
+// })
 
 var el = document.querySelectorAll(".el") ; 
 
